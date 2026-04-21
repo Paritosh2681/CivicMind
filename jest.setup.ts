@@ -1,14 +1,36 @@
 require('@testing-library/jest-dom');
+const { TextEncoder, TextDecoder } = require('util');
+const { ReadableStream, WritableStream, TransformStream } = require('web-streams-polyfill');
+const { Blob, File } = require('node:buffer');
 
-// Polyfill for ReadableStream if not available
-if (typeof (global as any).ReadableStream === 'undefined') {
-  try {
-    const { ReadableStream } = require('web-streams-polyfill');
-    (global as any).ReadableStream = ReadableStream;
-  } catch (e) {
-    // Polyfill might not be needed in all environments
-  }
-}
+(global as any).TextEncoder = TextEncoder;
+(global as any).TextDecoder = TextDecoder;
+(global as any).ReadableStream = ReadableStream;
+(global as any).WritableStream = WritableStream;
+(global as any).TransformStream = TransformStream;
+(global as any).Blob = Blob;
+(global as any).File = File;
+
+(global as any).MessagePort = class MessagePort {
+  addEventListener() {}
+  removeEventListener() {}
+  postMessage() {}
+  start() {}
+  close() {}
+};
+(global as any).MessageChannel = class MessageChannel {
+  port1 = new (global as any).MessagePort();
+  port2 = new (global as any).MessagePort();
+};
+
+// Polyfill for Fetch API (needed for Next.js Request/Response in JSDOM)
+const { Request, Response, Headers } = require('undici');
+if (typeof (global as any).Request === 'undefined') (global as any).Request = Request;
+if (typeof (global as any).Response === 'undefined') (global as any).Response = Response;
+if (typeof (global as any).Headers === 'undefined') (global as any).Headers = Headers;
+
+
+
 
 // Mock for Next.js server functions if not already mocked
 if (!jest.isMockFunction(require('next/server').NextRequest)) {

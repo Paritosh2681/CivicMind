@@ -65,6 +65,6 @@ describe('About Page', () => {
 
   it('contains election-related keywords', () => {
     render(<AboutPage />);
-    expect(screen.getByText(/election/i)).toBeInTheDocument();
+    expect(screen.queryAllByText(/election/i).length).toBeGreaterThan(0);
   });
 });
