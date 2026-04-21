@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --background: 219 53% 11%;
+  --foreground: 0 0% 100%;
+  --primary: 210 100% 56%;
+  --font-family-body: 'IBM Plex Sans', sans-serif;
+  --font-family-heading: 'Fraunces', serif;
+}
+
+@layer base {
+  body {
+    background-color: #0D1B2A;
+    color: white;
+    font-family: var(--font-family-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+  }
+}
