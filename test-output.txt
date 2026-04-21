@@ -1,0 +1,792 @@
+
+> civicmind@0.1.0 test
+> jest
+
+ΓùÅ Validation Warning:
+
+  Unknown option "setupFilesAfterFramework" with value ["<rootDir>/jest.setup.ts"] was found.
+  This is probably a typing mistake. Fixing it will remove this message.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+ΓùÅ Validation Warning:
+
+  Unknown option "setupFilesAfterFramework" with value ["<rootDir>/jest.setup.ts"] was found.
+  This is probably a typing mistake. Fixing it will remove this message.
+
+  Configuration Documentation:
+  https://jestjs.io/docs/configuration
+
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+See more at https://kulshekhar.github.io/ts-jest/docs/getting-started/presets#advanced
+PASS __tests__/api/chat.test.ts
+  ΓùÅ Console
+
+    console.error
+      AI Route Error: ReferenceError: TextEncoder is not defined
+          at POST (D:\Paritosh Codes and Projects\CivicMind\app\api\chat\route.ts:59:21)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\api\chat.test.ts:145:5)
+
+      91 |
+      92 |   } catch (error: any) {
+    > 93 |     console.error("AI Route Error:", error);
+         |             ^
+      94 |     console.error("Error details:", {
+      95 |       message: error.message,
+      96 |       status: error.status,
+
+      at POST (app/api/chat/route.ts:93:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:145:5)
+
+    console.error
+      Error details: {
+        message: 'TextEncoder is not defined',
+        status: undefined,
+        code: undefined
+      }
+
+      92 |   } catch (error: any) {
+      93 |     console.error("AI Route Error:", error);
+    > 94 |     console.error("Error details:", {
+         |             ^
+      95 |       message: error.message,
+      96 |       status: error.status,
+      97 |       code: error.code,
+
+      at POST (app/api/chat/route.ts:94:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:145:5)
+
+    console.error
+      AI Route Error: ReferenceError: TextEncoder is not defined
+          at POST (D:\Paritosh Codes and Projects\CivicMind\app\api\chat\route.ts:59:21)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\api\chat.test.ts:171:22)
+
+      91 |
+      92 |   } catch (error: any) {
+    > 93 |     console.error("AI Route Error:", error);
+         |             ^
+      94 |     console.error("Error details:", {
+      95 |       message: error.message,
+      96 |       status: error.status,
+
+      at POST (app/api/chat/route.ts:93:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:171:22)
+
+    console.error
+      Error details: {
+        message: 'TextEncoder is not defined',
+        status: undefined,
+        code: undefined
+      }
+
+      92 |   } catch (error: any) {
+      93 |     console.error("AI Route Error:", error);
+    > 94 |     console.error("Error details:", {
+         |             ^
+      95 |       message: error.message,
+      96 |       status: error.status,
+      97 |       code: error.code,
+
+      at POST (app/api/chat/route.ts:94:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:171:22)
+
+    console.error
+      AI Route Error: ReferenceError: TextEncoder is not defined
+          at POST (D:\Paritosh Codes and Projects\CivicMind\app\api\chat\route.ts:59:21)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\api\chat.test.ts:199:22)
+
+      91 |
+      92 |   } catch (error: any) {
+    > 93 |     console.error("AI Route Error:", error);
+         |             ^
+      94 |     console.error("Error details:", {
+      95 |       message: error.message,
+      96 |       status: error.status,
+
+      at POST (app/api/chat/route.ts:93:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:199:22)
+
+    console.error
+      Error details: {
+        message: 'TextEncoder is not defined',
+        status: undefined,
+        code: undefined
+      }
+
+      92 |   } catch (error: any) {
+      93 |     console.error("AI Route Error:", error);
+    > 94 |     console.error("Error details:", {
+         |             ^
+      95 |       message: error.message,
+      96 |       status: error.status,
+      97 |       code: error.code,
+
+      at POST (app/api/chat/route.ts:94:13)
+      at Object.<anonymous> (__tests__/api/chat.test.ts:199:22)
+
+PASS __tests__/lib/tavily.test.ts
+  ΓùÅ Console
+
+    console.error
+      Tavily search error: Error: API Error
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\lib\tavily.test.ts:60:34)
+          at Promise.finally.completed (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+          at _callCircusTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+          at D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+          at run (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+          at runAndTransformResultsToJestFormat (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+          at jestAdapter (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\runner.js:101:19)
+          at runTestInternal (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:275:16)
+          at runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:343:7)
+          at Object.worker (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:497:12)
+
+      17 |     }));
+      18 |   } catch (error) {
+    > 19 |     console.error("Tavily search error:", error);
+         |             ^
+      20 |     return [];
+      21 |   }
+      22 | }
+
+      at searchWeb (lib/tavily.ts:19:13)
+      at Object.<anonymous> (__tests__/lib/tavily.test.ts:62:20)
+
+    console.error
+      Tavily search error: Error: Network Error
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\lib\tavily.test.ts:112:26)
+          at Promise.finally.completed (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+          at _callCircusTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+          at D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+          at run (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+          at runAndTransformResultsToJestFormat (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+          at jestAdapter (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\runner.js:101:19)
+          at runTestInternal (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:275:16)
+          at runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:343:7)
+          at Object.worker (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:497:12)
+
+      17 |     }));
+      18 |   } catch (error) {
+    > 19 |     console.error("Tavily search error:", error);
+         |             ^
+      20 |     return [];
+      21 |   }
+      22 | }
+
+      at searchWeb (lib/tavily.ts:19:13)
+      at Object.<anonymous> (__tests__/lib/tavily.test.ts:115:20)
+
+    console.error
+      Tavily search error: Error: Request Timeout
+          at Object.<anonymous> (D:\Paritosh Codes and Projects\CivicMind\__tests__\lib\tavily.test.ts:121:26)
+          at Promise.finally.completed (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1557:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1497:10)
+          at _callCircusTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1007:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:947:3)
+          at D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:849:7
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:862:11)
+          at _runTestsForDescribeBlock (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:857:11)
+          at run (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:761:3)
+          at runAndTransformResultsToJestFormat (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\jestAdapterInit.js:1918:21)
+          at jestAdapter (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-circus\build\runner.js:101:19)
+          at runTestInternal (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:275:16)
+          at runTest (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:343:7)
+          at Object.worker (D:\Paritosh Codes and Projects\CivicMind\node_modules\jest-runner\build\testWorker.js:497:12)
+
+      17 |     }));
+      18 |   } catch (error) {
+    > 19 |     console.error("Tavily search error:", error);
+         |             ^
+      20 |     return [];
+      21 |   }
+      22 | }
+
+      at searchWeb (lib/tavily.ts:19:13)
+      at Object.<anonymous> (__tests__/lib/tavily.test.ts:124:20)
+
+FAIL __tests__/components/ChatBubble.test.tsx
+  ΓùÅ ChatBubble Component ΓÇ║ renders a user message on the right side
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      45 |     );
+      46 |     const messageContainer = container.querySelector('.justify-end');
+    > 47 |     expect(messageContainer).toBeInTheDocument();
+         |                              ^
+      48 |   });
+      49 |
+      50 |   it('renders an assistant message on the left side', () => {
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:47:30)
+
+  ΓùÅ ChatBubble Component ΓÇ║ renders an assistant message on the left side
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      53 |     );
+      54 |     const messageContainer = container.querySelector('.justify-start');
+    > 55 |     expect(messageContainer).toBeInTheDocument();
+         |                              ^
+      56 |   });
+      57 |
+      58 |   it('displays message content text correctly', () => {
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:55:30)
+
+  ΓùÅ ChatBubble Component ΓÇ║ displays message content text correctly
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      60 |       <ChatBubble role="user" content="How do I register to vote?" />
+      61 |     );
+    > 62 |     expect(screen.getByText('How do I register to vote?')).toBeInTheDocument();
+         |                                                            ^
+      63 |   });
+      64 |
+      65 |   it('shows the "≡ƒöì Searched the web" badge for assistant messages', () => {
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:62:60)
+
+  ΓùÅ ChatBubble Component ΓÇ║ shows the "≡ƒöì Searched the web" badge for assistant messages
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      68 |     );
+      69 |     const badge = screen.getByTestId('search-badge');
+    > 70 |     expect(badge).toBeInTheDocument();
+         |                   ^
+      71 |     expect(badge.textContent).toContain('Searched the web');
+      72 |   });
+      73 |
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:70:19)
+
+  ΓùÅ ChatBubble Component ΓÇ║ does not show the badge for user messages
+
+    TypeError: expect(...).not.toBeInTheDocument is not a function
+
+      77 |     );
+      78 |     const badge = screen.queryByTestId('search-badge');
+    > 79 |     expect(badge).not.toBeInTheDocument();
+         |                       ^
+      80 |   });
+      81 |
+      82 |   it('renders user message with blue background', () => {
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:79:23)
+
+  ΓùÅ ChatBubble Component ΓÇ║ renders user message with blue background
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      85 |     );
+      86 |     const messageBox = container.querySelector('.bg-\\[\\#1E90FF\\]');
+    > 87 |     expect(messageBox).toBeInTheDocument();
+         |                        ^
+      88 |   });
+      89 |
+      90 |   it('renders assistant message with slate background', () => {
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:87:24)
+
+  ΓùÅ ChatBubble Component ΓÇ║ renders assistant message with slate background
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      93 |     );
+      94 |     const messageBox = container.querySelector('.bg-slate-800');
+    > 95 |     expect(messageBox).toBeInTheDocument();
+         |                        ^
+      96 |   });
+      97 | });
+      98 |
+
+      at Object.<anonymous> (__tests__/components/ChatBubble.test.tsx:95:24)
+
+FAIL __tests__/components/TopicChips.test.tsx
+  ΓùÅ TopicChips Component ΓÇ║ renders all 5 topic chips
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      41 |     
+      42 |     mockTopics.forEach((topic) => {
+    > 43 |       expect(screen.getByText(topic)).toBeInTheDocument();
+         |                                       ^
+      44 |     });
+      45 |   });
+      46 |
+
+      at __tests__/components/TopicChips.test.tsx:43:39
+          at Array.forEach (<anonymous>)
+      at Object.<anonymous> (__tests__/components/TopicChips.test.tsx:42:16)
+
+  ΓùÅ TopicChips Component ΓÇ║ renders chips as visible buttons
+
+    TypeError: expect(...).toBeVisible is not a function
+
+      77 |     expect(buttons).toHaveLength(mockTopics.length);
+      78 |     buttons.forEach((button) => {
+    > 79 |       expect(button).toBeVisible();
+         |                      ^
+      80 |     });
+      81 |   });
+      82 |
+
+      at __tests__/components/TopicChips.test.tsx:79:22
+          at Array.forEach (<anonymous>)
+      at Object.<anonymous> (__tests__/components/TopicChips.test.tsx:78:13)
+
+  ΓùÅ TopicChips Component ΓÇ║ does not disable chips by default
+
+    TypeError: expect(...).not.toBeDisabled is not a function
+
+      87 |     const buttons = screen.getAllByRole('button');
+      88 |     buttons.forEach((button) => {
+    > 89 |       expect(button).not.toBeDisabled();
+         |                          ^
+      90 |     });
+      91 |   });
+      92 |
+
+      at __tests__/components/TopicChips.test.tsx:89:26
+          at Array.forEach (<anonymous>)
+      at Object.<anonymous> (__tests__/components/TopicChips.test.tsx:88:13)
+
+  ΓùÅ TopicChips Component ΓÇ║ disables chips when isLoading is true
+
+    TypeError: expect(...).toBeDisabled is not a function
+
+       97 |     const buttons = screen.getAllByRole('button');
+       98 |     buttons.forEach((button) => {
+    >  99 |       expect(button).toBeDisabled();
+          |                      ^
+      100 |     });
+      101 |   });
+      102 |
+
+      at __tests__/components/TopicChips.test.tsx:99:22
+          at Array.forEach (<anonymous>)
+      at Object.<anonymous> (__tests__/components/TopicChips.test.tsx:98:13)
+
+FAIL __tests__/pages/about.test.tsx
+  ΓùÅ About Page ΓÇ║ displays the About heading
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      19 |     render(<AboutPage />);
+      20 |     const aboutHeading = screen.getByText('About CivicMind');
+    > 21 |     expect(aboutHeading).toBeInTheDocument();
+         |                          ^
+      22 |   });
+      23 |
+      24 |   it('displays "The Problem" section', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:21:26)
+
+  ΓùÅ About Page ΓÇ║ displays "The Problem" section
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      25 |     render(<AboutPage />);
+      26 |     const problemSection = screen.getByText('The Problem');
+    > 27 |     expect(problemSection).toBeInTheDocument();
+         |                            ^
+      28 |   });
+      29 |
+      30 |   it('displays "How CivicMind Works" section', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:27:28)
+
+  ΓùÅ About Page ΓÇ║ displays "How CivicMind Works" section
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      31 |     render(<AboutPage />);
+      32 |     const howItWorks = screen.getByText('How CivicMind Works');
+    > 33 |     expect(howItWorks).toBeInTheDocument();
+         |                        ^
+      34 |   });
+      35 |
+      36 |   it('displays "Our Mission" section', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:33:24)
+
+  ΓùÅ About Page ΓÇ║ displays "Our Mission" section
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      37 |     render(<AboutPage />);
+      38 |     const mission = screen.getByText('Our Mission');
+    > 39 |     expect(mission).toBeInTheDocument();
+         |                     ^
+      40 |   });
+      41 |
+      42 |   it('contains description text about AI-powered assistance', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:39:21)
+
+  ΓùÅ About Page ΓÇ║ contains description text about AI-powered assistance
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      43 |     render(<AboutPage />);
+      44 |     const descText = screen.getByText(/AI-powered Election Process Education assistant/i);
+    > 45 |     expect(descText).toBeInTheDocument();
+         |                      ^
+      46 |   });
+      47 |
+      48 |   it('mentions Tavily Search API', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:45:22)
+
+  ΓùÅ About Page ΓÇ║ mentions Tavily Search API
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      49 |     render(<AboutPage />);
+      50 |     const tavilyText = screen.getByText(/Tavily Search API/i);
+    > 51 |     expect(tavilyText).toBeInTheDocument();
+         |                        ^
+      52 |   });
+      53 |
+      54 |   it('mentions Google Gemini', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:51:24)
+
+  ΓùÅ About Page ΓÇ║ mentions Google Gemini
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      55 |     render(<AboutPage />);
+      56 |     const geminiText = screen.getByText(/Google Gemini/i);
+    > 57 |     expect(geminiText).toBeInTheDocument();
+         |                        ^
+      58 |   });
+      59 |
+      60 |   it('mentions Supabase', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:57:24)
+
+  ΓùÅ About Page ΓÇ║ mentions Supabase
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      61 |     render(<AboutPage />);
+      62 |     const supabaseText = screen.getByText(/Supabase/i);
+    > 63 |     expect(supabaseText).toBeInTheDocument();
+         |                          ^
+      64 |   });
+      65 |
+      66 |   it('contains election-related keywords', () => {
+
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:63:26)
+
+  ΓùÅ About Page ΓÇ║ contains election-related keywords
+
+    TestingLibraryElementError: Found multiple elements with the text: /election/i
+
+    Here are the matching elements:
+
+    Ignored nodes: comments, script, style
+    <p
+      class="text-lg text-slate-300 mb-8 leading-relaxed"
+    >
+      CivicMind is an AI-powered Election Process Education assistant designed to empower citizens with accurate, real-time, and reliable information about electoral and democratic processes.
+    </p>
+
+    Ignored nodes: comments, script, style
+    <p
+      class="text-slate-400 leading-relaxed bg-slate-900 p-6 rounded-xl border border-slate-800"
+    >
+      Electoral processes are often complex and intimidating. Voters face challenges finding non-partisan, accurate, and up-to-date information regarding registration, voting locations, candidate details, and constitutional duties. Misinformation spreads rapidly during election cycles.
+    </p>
+
+    Ignored nodes: comments, script, style
+    <p
+      class="text-slate-400 leading-relaxed bg-slate-900 p-6 rounded-xl border border-slate-800"
+    >
+      Promoting election literacy and maximizing democratic participation by making civic information easily accessible to everyone.
+    </p>
+
+    (If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+    Ignored nodes: comments, script, style
+    <body>
+      <div>
+        <div
+          class="flex-1 max-w-4xl mx-auto py-12 px-6"
+        >
+          <h1
+            class="text-4xl font-bold font-heading mb-6 text-white"
+          >
+            About CivicMind
+          </h1>
+          <p
+            class="text-lg text-slate-300 mb-8 leading-relaxed"
+          >
+            CivicMind is an AI-powered Election Process Education assistant designed to empower citizens with accurate, real-time, and reliable information about electoral and democratic processes.
+          </p>
+          <section
+            class="space-y-6"
+          >
+            <div>
+              <h2
+                class="text-2xl font-semibold text-blue-400 mb-3"
+              >
+                The Problem
+              </h2>
+              <p
+                class="text-slate-400 leading-relaxed bg-slate-900 p-6 rounded-xl border border-slate-800"
+              >
+                Electoral processes are often complex and intimidating. Voters face challenges finding non-partisan, accurate, and up-to-date information regarding registration, voting locations, candidate details, and constitutional duties. Misinformation spreads rapidly during election cycles.
+              </p>
+            </div>
+            <div>
+              <h2
+                class="text-2xl font-semibold text-blue-400 mb-3"
+              >
+                How CivicMind Works
+              </h2>
+              <div
+                class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4 text-slate-400"
+              >
+                <p
+                  class="flex items-center gap-3"
+                >
+                  <span
+                    class="bg-blue-900/50 text-blue-400 h-8 w-8 flex items-center justify-center rounded-full font-bold"
+                  >
+                    1
+                  </span>
+                  Users ask questions in natural language.
+                </p>
+                <p
+                  class="flex items-center gap-3"
+                >
+                  <span
+                    class="bg-blue-900/50 text-blue-400 h-8 w-8 flex items-center justify-center rounded-full font-bold"
+                  >
+                    2
+                  </span>
+                  CivicMind uses the 
+                  <strong>
+                    Tavily Search API
+                  </strong>
+                   to fetch real-time, highly relevant context from the web.
+                </p>
+                <p
+                  class="flex items-center gap-3"
+                >
+                  <span
+                    class="bg-blue-900/50 text-blue-400 h-8 w-8 flex items-center justify-center rounded-full font-bold"
+                  >
+                    3
+                  </span>
+                  <strong>
+                    Google Gemini 1.5 Flash
+                  </strong>
+                   synthesizes this factual context to provide accurate, non-partisan, and easy-to-understand explanations.
+                </p>
+                <p
+                  class="flex items-center gap-3"
+                >
+                  <span
+                    class="bg-blue-900/50 text-blue-400 h-8 w-8 flex items-center justify-center rounded-full font-bold"
+                  >
+                    4
+                  </span>
+                  User authentication and chat history are securely managed by 
+                  <strong>
+                    Supabase
+                  </strong>
+                  .
+                </p>
+              </div>
+            </div>
+            <div>
+              <h2
+                class="text-2xl font-semibold text-blue-400 mb-3"
+              >
+                Our Mission
+              </h2>
+              <p
+                class="text-slate-400 leading-relaxed bg-slate-900 p-6 rounded-xl border border-slate-800"
+              >
+                Promoting election literacy and maximizing democratic participation by making civic information easily accessible to everyone.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </body>
+
+      66 |   it('contains election-related keywords', () => {
+      67 |     render(<AboutPage />);
+    > 68 |     expect(screen.getByText(/election/i)).toBeInTheDocument();
+         |                   ^
+      69 |   });
+      70 | });
+      71 |
+
+      at Object.getElementError (node_modules/@testing-library/dom/dist/config.js:37:19)
+      at getElementError (node_modules/@testing-library/dom/dist/query-helpers.js:20:35)
+      at getMultipleElementsFoundError (node_modules/@testing-library/dom/dist/query-helpers.js:23:10)
+      at node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+      at node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+      at Object.<anonymous> (__tests__/pages/about.test.tsx:68:19)
+
+FAIL __tests__/components/Navbar.test.tsx
+  ΓùÅ Navbar Component ΓÇ║ renders the CivicMind brand name
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      55 |     await new Promise(resolve => setTimeout(resolve, 100));
+      56 |     const brandName = screen.getByText('CivicMind', { selector: 'span' });
+    > 57 |     expect(brandName).toBeInTheDocument();
+         |                       ^
+      58 |   });
+      59 |
+      60 |   it('renders the About nav link', async () => {
+
+      at Object.<anonymous> (__tests__/components/Navbar.test.tsx:57:23)
+
+  ΓùÅ Navbar Component ΓÇ║ renders the About nav link
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      62 |     await new Promise(resolve => setTimeout(resolve, 100));
+      63 |     const aboutLink = screen.getByText('About');
+    > 64 |     expect(aboutLink).toBeInTheDocument();
+         |                       ^
+      65 |   });
+      66 |
+      67 |   it('has navigation links', async () => {
+
+      at Object.<anonymous> (__tests__/components/Navbar.test.tsx:64:23)
+
+  ΓùÅ Navbar Component ΓÇ║ has navigation links
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      69 |     await new Promise(resolve => setTimeout(resolve, 100));
+      70 |     const nav = container.querySelector('nav');
+    > 71 |     expect(nav).toBeInTheDocument();
+         |                 ^
+      72 |   });
+      73 | });
+      74 |
+
+      at Object.<anonymous> (__tests__/components/Navbar.test.tsx:71:17)
+
+FAIL __tests__/integration/chat-flow.test.tsx
+  ΓùÅ Chat Flow Integration ΓÇ║ renders the chat interface
+
+    TypeError: expect(...).toBeInTheDocument is not a function
+
+      102 |   it('renders the chat interface', () => {
+      103 |     render(<ChatFlow />);
+    > 104 |     expect(screen.getByTestId('message-input')).toBeInTheDocument();
+          |                                                 ^
+      105 |     expect(screen.getByTestId('send-button')).toBeInTheDocument();
+      106 |   });
+      107 |
+
+      at Object.<anonymous> (__tests__/integration/chat-flow.test.tsx:104:49)
+
+  ΓùÅ Chat Flow Integration ΓÇ║ allows user to type a message
+
+    TypeError: expect(...).toHaveValue is not a function
+
+      113 |     await user.type(input, 'How do I register to vote?');
+      114 |
+    > 115 |     expect(input).toHaveValue('How do I register to vote?');
+          |                   ^
+      116 |   });
+      117 |
+      118 |   it('displays user message when send button is clicked', async () => {
+
+      at Object.<anonymous> (__tests__/integration/chat-flow.test.tsx:115:19)
+
+  ΓùÅ Chat Flow Integration ΓÇ║ disables send button when input is empty
+
+    TypeError: expect(...).toBeDisabled is not a function
+
+      217 |     render(<ChatFlow />);
+      218 |     const sendButton = screen.getByTestId('send-button');
+    > 219 |     expect(sendButton).toBeDisabled();
+          |                        ^
+      220 |   });
+      221 |
+      222 |   it('enables send button when input has text', async () => {
+
+      at Object.<anonymous> (__tests__/integration/chat-flow.test.tsx:219:24)
+
+  ΓùÅ Chat Flow Integration ΓÇ║ enables send button when input has text
+
+    TypeError: expect(...).toBeDisabled is not a function
+
+      227 |     const sendButton = screen.getByTestId('send-button');
+      228 |
+    > 229 |     expect(sendButton).toBeDisabled();
+          |                        ^
+      230 |
+      231 |     await user.type(input, 'Message');
+      232 |
+
+      at Object.<anonymous> (__tests__/integration/chat-flow.test.tsx:229:24)
+
+Test Suites: 5 failed, 2 passed, 7 total
+Tests:       27 failed, 26 passed, 53 total
+Snapshots:   0 total
+Time:        12.82 s
+Ran all test suites.
